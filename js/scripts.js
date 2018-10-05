@@ -11,5 +11,14 @@
 // var dayOfWeek = prompt("What day is it?");
 // alert("Today is " + dayOfWeek);
 
-var diceRoll = Math.floor(Math.random() * 6) + 1;
-alert("You rolled a " + diceRoll);
+// var diceRoll = Math.floor(Math.random() * 6) + 1;
+// alert("You rolled a " + diceRoll);
+
+var isAdmin = false;
+var isStudent = true;
+
+if ( isAdmin ) {
+    alert('Welcome administrator')
+} else if ( isStudent ) {
+    alert('Welcome student')
+}
