@@ -14,11 +14,16 @@
 // var diceRoll = Math.floor(Math.random() * 6) + 1;
 // alert("You rolled a " + diceRoll);
 
-var isAdmin = false;
-var isStudent = true;
+// var isAdmin = false;
+// var isStudent = true;
 
-if ( isAdmin ) {
-    alert('Welcome administrator')
-} else if ( isStudent ) {
-    alert('Welcome student')
+// if (isAdmin) {
+//     alert('Welcome administrator')
+// } else if (isStudent) {
+//     alert('Welcome student')
+// }
+
+function goToCoffeeShop(drink, pastry) {
+    alert(drink + " and " + pastry + " are on the way!");
 }
+goToCoffeeShop("Espresso", "croissant");
