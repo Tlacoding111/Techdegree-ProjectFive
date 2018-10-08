@@ -23,7 +23,18 @@
 //     alert('Welcome student')
 // }
 
-function goToCoffeeShop(drink, pastry) {
-    alert(drink + " and " + pastry + " are on the way!");
+// function goToCoffeeShop(drink, pastry) {
+//     alert(drink + " and " + pastry + " are on the way!");
+// }
+// goToCoffeeShop("Espresso", "croissant");
+
+function randomNumber(upper){
+    return Math.floor(Math.random() * upper ) + 1;
 }
-goToCoffeeShop("Espresso", "croissant");
+
+var counter = 1;
+while ( counter < 10) {
+    var randNum = randomNumber(6);
+    document.write(randNum + " ");
+    counter += 1;
+}
