@@ -4,40 +4,45 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tim's Interactive Photo Gallary</title>
+        <link rel="stylesheet" href="lightbox/css/lightbox.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
 
-        <div id="images">
-
-            <img src="photos/thumbnails/01.jpg" alt="Hey Bales">
-
-            <img src="photos/thumbnails/02.jpg" alt="Lake">
-
-            <img src="photos/thumbnails/03.jpg" alt="Canyon">
-
-            <img src="photos/thumbnails/04.jpg" alt="Iceberg">
-
-            <img src="photos/thumbnails/05.jpg" alt="Desert">
-
-            <img src="photos/thumbnails/06.jpg" alt="Fall">
-
-            <img src="photos/thumbnails/07.jpg" alt="Plantation">
-
-            <img src="photos/thumbnails/08.jpg" at="Dunes">
-
-            <img src="photos/thumbnails/09.jpg" alt="Countryside Lane">
-
-            <img src="photos/thumbnails/10.jpg" alt="Sunset">
-
-            <img src="photos/thumbnails/11.jpg" alt="Cave">
-
-            <img src="photos/thumbnails/12.jpg" alt="Bluebells">
+        <div class="search">
+                <input id="search" type="text" placeholder="Search">
         </div>
 
+        <div id="images">
+
+            <a href="photos/01.jpg" data-lightbox="image-1" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img src="photos/thumbnails/01.jpg" alt="Hey Bales"></a>
+
+            <a href="photos/02.jpg" data-lightbox="image-2" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."><img src="photos/thumbnails/02.jpg" alt="Lake"></a>
+
+            <a><img src="photos/thumbnails/03.jpg" alt="Canyon"></a>
+
+            <a><img src="photos/thumbnails/04.jpg" alt="Iceberg"></a>
+
+            <a><img src="photos/thumbnails/05.jpg" alt="Desert"></a>
+
+            <a><img src="photos/thumbnails/06.jpg" alt="Fall"></a>
+
+            <a><img src="photos/thumbnails/07.jpg" alt="Plantation"></a>
+
+            <a><img src="photos/thumbnails/08.jpg" at="Dunes"></a>
+
+            <a><img src="photos/thumbnails/09.jpg" alt="Countryside Lane"></a>
+
+            <a><img src="photos/thumbnails/10.jpg" alt="Sunset"></a>
+
+            <a><img src="photos/thumbnails/11.jpg" alt="Cave"></a>
+
+            <a><img src="photos/thumbnails/12.jpg" alt="Bluebells"></a>
+        </div>
+
+        <script src="lightbox/js/lightbox.js"></script>
         <script src="js/scripts.js"></script>
-        <script src="js/practice.js"></script>
     </body>
 </html>

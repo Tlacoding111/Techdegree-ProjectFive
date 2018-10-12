@@ -3,3 +3,17 @@
 h1 {
     color: blue;
 }
+
+/*==============Search=========*/
+
+input[type="text"] {
+    border: 1px solid black;
+    width: 25%;
+    margin: 10px 35%;
+    text-align: center;
+}
+
+input::placeholder {
+    color: lightgray;
+    text-align: center;
+}
