@@ -1,3 +1,3 @@
-$('#search-highlight').hideseek({
-    highlight: true
-  });
+$(document).ready(function() {
+	$('#search').hideseek();
+});
