@@ -81,7 +81,7 @@ footer p {
 
     .photos {
         width: 250px;
-        margin: 5% 7%;
+        margin: 5% 7% 7% 10%;
     }
 
     body {
@@ -90,17 +90,43 @@ footer p {
         background-size: 75%;
         background-repeat: no-repeat;
         background-position-x: 50%;
-        background-position-y: -4%;
+        background-position-y: -1%;
     }
 
     .wolf {
         height: 200px;
         width: 200px;
-        margin-left: 5%;
+        margin-left: 7%;
         margin-top: 3%;
     }
 
     .wolfPics {
         display: inline;
+    }
+
+    .wolfPicsTwo {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .photos {
+        width: 225px;
+    }
+
+    .wolfPicsTwo {
+        display: inline;
+    }
+
+    .wolf {
+        margin-left: 5%;
+    }
+
+    body {
+        background-position-y: -3%;
     }
 }
