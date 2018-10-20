@@ -1,16 +1,21 @@
 /*==============Main Page=========*/
 
 body {
-    background-image: url(../photos/personalImages/lion.jpg);
-    background-size: cover;
+    background-color: whitesmoke;
+    /* display:flex;
+    flex-direction: column;
+    min-height:100vh; */
 }
 
+/* .list{
+    flex-grow:1;
+} */
 /*==============Search=========*/
 
 input[type="text"] {
-    border: 3px solid black;
-    width: 30%;
-    margin: 50px 35%;
+    border: 3px solid blue;
+    width: 245px;
+    margin: 10% 20%;
     text-align: center;
     color: blue;
 }
@@ -20,21 +25,21 @@ input::placeholder {
     text-align: center;
 }
 
-input:hover {
-    border-color: yellow;
-}
-
 /*==============Photos=========*/
 
 .photos {
-    padding: 10px 20px;
-    padding-left: 50px;
-    width: 225px;
-    border: 1px solid blue;
-}
+    border: 2px solid blue;
+    width: 250px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}  
 
 .photos:hover {
-    border-color: yellow;
+    border-color: black;
+}
+
+.wolfPics {
+    visibility: hidden;
 }
 
 /*==============Footer=========*/
@@ -42,10 +47,46 @@ input:hover {
 footer {
     text-align: center;
     background-color: black;
+    border: 1.5px solid blue;
     padding: 30px;
 }
 
 footer p {
     color: dodgerblue;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/*==============Media Queries=========*/
+
+@media (min-width: 768px){
+    input[type="text"] {
+        width: 60%;
+        margin-bottom: -10%;
+    }
+
+    .photos {
+        width: 250px;
+        margin: 5% 7%;
+    }
+
+    body {
+        background-color: black;
+        background-image: url(../photos/personalImages/moon.jpg);
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: -4%;
+    }
+
+    .wolfPics {
+        visibility: visible;
+    }
+
+    .wolf {
+        height: 200px;
+        width: 200px;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
 }
