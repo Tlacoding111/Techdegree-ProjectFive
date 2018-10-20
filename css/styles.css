@@ -37,7 +37,7 @@ input::placeholder {
 }  
 
 .photos:hover {
-    border-color: black;
+    border-color: greenyellow;
 }
 
 .wolfPics {
@@ -102,9 +102,5 @@ footer p {
 
     .wolfPics {
         display: inline;
-    }
-
-    header {
-        display: show;
     }
 }
